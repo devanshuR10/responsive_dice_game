@@ -11,6 +11,31 @@
       />
   </head>
   <body>
+
+    <audio id="rollSound">
+  <source src="sounds/dice-142528.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+
+<audio id="bgMusic" autoplay muted loop>
+  <source src="sounds/game-gaming-minecraft-background-music-362185.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  const music = document.getElementById("bgMusic");
+
+  
+  window.addEventListener("click", () => {
+    music.muted = false;
+    music.play().catch(err => {
+      console.error("Playback failed:", err);
+    });
+  });
+</script>
+
     <script src="script.js"></script>
     <div class="container">
       <h1 class="heading">roll the dice </h1>
@@ -48,3 +73,4 @@
     
   </body>
 </html>
+
