@@ -1,0 +1,86 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+button{
+  border: 10px black solid;
+  border-radius: 10px;
+  font-family: 'Indie Flower', cursive;
+  background-color: black;
+  color: #EEEEEE;
+  
+}
+.buttondiv{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+button:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #4ECCA3;
+}
+a{
+  color: #4ECCA3;
+}
+.scoreupdate{
+  display: grid;
+  gap: 150px;
+  grid-template-columns: 0px 0px; 
+  grid-template-rows: 0px 50px;
+  
+}
+h3{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+h4{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 1000;
+}
+.score_board{
+  background-color: #4ECCA3;
+}
+.align_score{
+  display: flex;
+  justify-content: center;
+  background-color: #FFA45B;
+}
