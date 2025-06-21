@@ -49,6 +49,14 @@ function roll(){
    
    score_1[0].innerHTML=`${score1}`
    score_2[0].innerHTML=`${score2}`
+
+   const rollSound = document.getElementById("rollSound");
+  rollSound.currentTime = 0;
+  rollSound.play();
+
 }
+
+
+
 
 
